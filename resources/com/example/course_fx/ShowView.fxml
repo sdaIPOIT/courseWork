@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006600;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course_fx.Controllers.ShowCarsController">
+   <children>
+      <TableView fx:id="carsTable" layoutX="10.0" layoutY="59.0" prefHeight="271.0" prefWidth="578.0">
+        <columns>
+          <TableColumn fx:id="numberColumn" prefWidth="63.0" text="№" />
+          <TableColumn fx:id="carModelColumn" prefWidth="199.0" text="carModel" />
+            <TableColumn fx:id="productionYearColumn" prefWidth="127.0" text="productionYear" />
+            <TableColumn fx:id="conditionColumn" minWidth="0.0" prefWidth="188.0" text="conditionOfCar" />
+        </columns>
+      </TableView>
+      <Button fx:id="backButton" layoutX="532.0" layoutY="361.0" mnemonicParsing="false" text="&lt;Back&gt;" />
+      <Label layoutX="266.0" layoutY="8.0" text="Cars" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

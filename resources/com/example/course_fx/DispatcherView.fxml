@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006600;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course_fx.Controllers.DispatcherController">
+   <children>
+      <TextField fx:id="carModelField" layoutX="14.0" layoutY="89.0" prefHeight="25.0" prefWidth="121.0" promptText="Car model" />
+      <TextField fx:id="productionYearField" layoutX="169.0" layoutY="89.0" prefHeight="25.0" prefWidth="121.0" promptText="Production year" />
+      <Button fx:id="addCarButton" layoutX="325.0" layoutY="89.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Add car " />
+      <TextField fx:id="startCityField" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="121.0" promptText="Start city" />
+      <TextField fx:id="endCityField" layoutX="169.0" layoutY="14.0" prefHeight="25.0" prefWidth="121.0" promptText="End city" />
+      <TextField fx:id="distanceField" layoutX="325.0" layoutY="14.0" prefHeight="25.0" prefWidth="121.0" promptText="Distance" />
+      <Button fx:id="addRunButton" layoutX="475.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Add run" />
+      <TextField fx:id="usernameField" layoutX="14.0" layoutY="51.0" prefHeight="25.0" prefWidth="121.0" promptText="Username" />
+      <TextField fx:id="ageField" layoutX="169.0" layoutY="51.0" prefHeight="25.0" prefWidth="121.0" promptText="Age" />
+      <Button fx:id="addDriverButton" layoutX="475.0" layoutY="51.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="74.0" text="Add driver" />
+      <Button fx:id="distributeButton" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="278.0" text="Distribution" />
+      <TextField fx:id="driverPasswordField" layoutX="325.0" layoutY="51.0" prefHeight="25.0" prefWidth="121.0" promptText="Driver's password" />
+      <Button fx:id="backButton" layoutX="529.0" layoutY="361.0" mnemonicParsing="false" text="&lt;Back&gt;" />
+      <Button fx:id="suspendDriverButton" layoutX="14.0" layoutY="212.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="278.0" text="Suspend driver" />
+      <Button fx:id="scrapCarButton" layoutX="14.0" layoutY="248.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="278.0" text="Scrap car" />
+      <Button fx:id="showCarsButton" layoutX="14.0" layoutY="283.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="278.0" text="Show cars" />
+      <Button fx:id="showRunsButton" layoutX="14.0" layoutY="320.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="278.0" text="Show runs" />
+      <Button fx:id="showDriversButton" layoutX="14.0" layoutY="355.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="278.0" text="Show drivers" />
+      <Label fx:id="messageLabel" layoutX="14.0" layoutY="129.0" prefHeight="27.0" prefWidth="578.0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

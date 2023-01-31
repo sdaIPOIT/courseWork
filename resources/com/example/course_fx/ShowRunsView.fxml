@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006600;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course_fx.Controllers.ShowRunsController">
+   <children>
+      <TableView fx:id="runsTable" layoutX="10.0" layoutY="59.0" prefHeight="271.0" prefWidth="578.0">
+        <columns>
+          <TableColumn fx:id="numberColumn" prefWidth="63.0" text="№" />
+          <TableColumn fx:id="startCityColumn" prefWidth="154.0" text="startCity" />
+            <TableColumn fx:id="endCityColumn" prefWidth="196.0" text="endCity" />
+            <TableColumn fx:id="distanceColumn" minWidth="0.0" text="distance" />
+            <TableColumn fx:id="completingColumn" minWidth="0.0" prefWidth="84.0" text="completing" />
+        </columns>
+      </TableView>
+      <Button fx:id="backButton" layoutX="532.0" layoutY="361.0" mnemonicParsing="false" text="&lt;Back&gt;" />
+      <Label layoutX="262.0" text="Runs" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

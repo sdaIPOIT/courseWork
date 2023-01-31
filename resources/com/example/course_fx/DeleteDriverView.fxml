@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006600;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course_fx.Controllers.DeleteDriverController">
+   <children>
+      <TableView fx:id="driversTable" layoutX="10.0" layoutY="59.0" onMouseClicked="#getSelected" prefHeight="271.0" prefWidth="578.0">
+        <columns>
+          <TableColumn fx:id="numberColumn" prefWidth="59.0" text="№" />
+          <TableColumn fx:id="usernameColumn" prefWidth="150.0" text="username" />
+            <TableColumn fx:id="ageColumn" prefWidth="63.0" text="age" />
+            <TableColumn fx:id="passwordColumn" minWidth="0.0" prefWidth="172.0" text="password" />
+            <TableColumn fx:id="carIdColumn" prefWidth="64.0" text="car_id" />
+            <TableColumn fx:id="runIdColumn" prefWidth="69.0" text="run_id" />
+        </columns>
+      </TableView>
+      <Button fx:id="backButton" layoutX="532.0" layoutY="361.0" mnemonicParsing="false" text="&lt;Back&gt;" />
+      <Label layoutX="129.0" text="Choose driver to delete" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteButton" layoutX="320.0" layoutY="349.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="Delete" />
+      <Label layoutX="238.0" layoutY="347.0" text="№" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="setNumLabel" layoutX="265.0" layoutY="347.0" prefHeight="29.0" prefWidth="39.0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

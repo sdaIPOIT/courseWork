@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006600;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course_fx.Controllers.DeleteCarController">
+   <children>
+      <TableView fx:id="carsTable" layoutX="10.0" layoutY="59.0" onMouseClicked="#getSelected" prefHeight="271.0" prefWidth="578.0">
+        <columns>
+          <TableColumn fx:id="numberColumn" prefWidth="63.0" text="№" />
+          <TableColumn fx:id="carModelColumn" prefWidth="199.0" text="carModel" />
+            <TableColumn fx:id="productionYearColumn" prefWidth="127.0" text="productionYear" />
+            <TableColumn fx:id="conditionColumn" minWidth="0.0" prefWidth="188.0" text="conditionOfCar" />
+        </columns>
+      </TableView>
+      <Button fx:id="backButton" layoutX="532.0" layoutY="361.0" mnemonicParsing="false" text="&lt;Back&gt;" />
+      <Label layoutX="149.0" text="Choose car to delete" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteButton" layoutX="326.0" layoutY="349.0" mnemonicParsing="false" text="Delete" />
+      <Label layoutX="245.0" layoutY="347.0" text="№" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="setNumLabel" layoutX="273.0" layoutY="347.0" prefHeight="29.0" prefWidth="43.0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

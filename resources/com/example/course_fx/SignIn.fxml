@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #006600;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.course_fx.Controllers.SignInController">
+   <children>
+      <TextField fx:id="usernameField" layoutX="181.0" layoutY="126.0" prefHeight="25.0" prefWidth="238.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="181.0" layoutY="200.0" prefHeight="25.0" prefWidth="238.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="260.0" layoutY="95.0" text="Username:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="170.0" text="Password:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="signInButton" layoutX="247.0" layoutY="250.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="107.0" text="Sign In">
+         <font>
+            <Font name="Impact" size="24.0" />
+         </font>
+      </Button>
+      <AnchorPane prefHeight="74.0" prefWidth="600.0" style="-fx-background-color: #606060;">
+         <children>
+            <Label layoutX="122.0" layoutY="4.0" text="Transport company" textFill="WHITE">
+               <font>
+                  <Font name="Impact" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="errorLabel" layoutX="188.0" layoutY="318.0" textFill="#ff4040">
+         <font>
+            <Font name="Impact" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
